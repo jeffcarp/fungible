@@ -2,7 +2,7 @@
   "name": "blocks",
   "description": "A bunch of CSS building blocks for scaffolding",
   "styles": [
-    "spacing-compiled.css",
+    "spacing.css",
     "float.css",
     "background.css",
     "font-size.css",
