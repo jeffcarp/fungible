@@ -1,0 +1,31 @@
+
+/* Text align
+===============================*/
+.tac { text-align: center; } 
+.tal { text-align: left;   } 
+.tar { text-align: right;  } 
+
+/* Text color 
+===============================*/
+.white { color: white; }
+.grey { color: #888; }
+.dagrey { color: #666; }
+
+/* Font weight 
+===============================*/
+.fwn { font-weight: normal; }
+.fwb { font-weight: bold; }
+
+/* Display 
+===============================*/
+.dib { display: inline-block; }
+.di  { display: inline;       }
+.db  { display: block;        }
+
+.hidden { display: none; }
+
+/* Misc misc 
+===============================*/
+.full { width: 100%; }
+.uppercase { text-transform: uppercase; }
+.italic { font-style: italic; }
