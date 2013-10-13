@@ -1,0 +1,13 @@
+{
+  "name": "fungible",
+  "repo": "jeffcarp/fungible",
+  "description": "A collection of base CSS classes that let you write styled HTML without writing any CSS.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "fungible.css"
+  ]
+}
