@@ -2,11 +2,11 @@
   "name": "blocks",
   "description": "A bunch of CSS building blocks for scaffolding",
   "styles": [
-    "spacing.css",
-    "float.css",
-    "background.css",
-    "font-size.css",
-    "border.css",
-    "misc.css"
+    "styles/background.css",  
+    "styles/border.css",  
+    "styles/float.css", 
+    "styles/font-size.css", 
+    "styles/misc.css",  
+    "styles/spacing.css"
   ]
 }

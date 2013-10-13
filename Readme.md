@@ -5,14 +5,10 @@
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+Install with [component(1)](http://component.io):
 
-    $ component install jeffcarp/fungible
-
-## API
-
-
+$ component install jeffcarp/fungible
 
 ## License
 
-  MIT
+MIT

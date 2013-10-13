@@ -1,5 +1,5 @@
 
-build: components fungible.css
+build:
 	@component build --dev
 
 components: component.json
