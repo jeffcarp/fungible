@@ -1,8 +1,9 @@
-// Syntax:
-// b: border
-// a: 1px (b would be 2 px, c would be 3px)
-// d: #ddd (e would be #eee, 9 would be #999, letters g-z reserved for custom colors)
-// b: bottom (t would be top)
+/* Syntax:
+ * b: border
+ * a: 1px (b would be 2 px, c would be 3px)
+ * d: #ddd (e would be #eee, 9 would be #999, letters g-z reserved for custom colors)
+ * b: bottom (t would be top)
+ */
 
 .bad  { border: solid 1px #ddd; }
 .badr { border-right: solid 1px #ddd; }
