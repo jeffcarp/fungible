@@ -16,14 +16,18 @@ Here's a rundown of what's available to you:
 
 ### background-color
 
+```css
 .bg-[color]
+```
 
 **color**
 - white - white (.bg-white)
 
 ### border
 
+```css
 .b[size][color][direction]
+```
 
 **size**
 - a - 1px (.bad)
@@ -41,7 +45,9 @@ Here's a rundown of what's available to you:
 
 ### font-size
 
+```css
 .s[size]
+```
 
 **size**
 - a - 8px (.sa)
@@ -62,12 +68,16 @@ Here's a rundown of what's available to you:
 
 ### float
 
-- .left
-- .right
+```css
+.left
+.right
+```
 
 ### text-align
 
+```css
 .ta[direction]
+```
 
 **direction**
 - l - left (.tal)
@@ -83,7 +93,9 @@ Here's a rundown of what's available to you:
 
 ### display
 
+```css
 .d[value]
+```
 
 **value**
 - ib - inline-block (.dib)
@@ -97,7 +109,9 @@ Here's a rundown of what's available to you:
 
 ### margin & padding
 
+```css
 .[p|m][size][direction]
+```
 
 **size**
 - a - 0em (.ma, .pa)
@@ -121,18 +135,27 @@ Here's a rundown of what's available to you:
 - y - top and bottom (.mfy, .pfy)
 
 ### miscellaneous
-.hidden - display: none;
-.full - width: 100%;
-.uppercase - text-transform: uppercase;
-.italic - font-style: italic;
+
+```css
+.hidden /* display: none; */
+.full /* width: 100%; */
+.uppercase /* text-transform: uppercase; */
+.italic /* font-style: italic; */
+```
 
 ## Installation
 
 Install with [component(1)](http://component.io):
 
+```bash
 $ component install jeffcarp/fungible
+```
 
 Also available as a Rails gem (if you're using the asset pipeline): [fungible-rails](https://github.com/jeffcarp/fungible-rails)
+
+### Wish list
+
+- Search through files and only include classes that are mentioned in the template. (this might be better as an add-on)
 
 ## License
 
