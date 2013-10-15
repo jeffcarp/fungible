@@ -21,7 +21,7 @@ Here's a rundown of what's available to you:
 ```
 
 **color**
-- white - white (.bg-white)
+- white - white `.bg-white`
 
 ### border
 
@@ -30,18 +30,18 @@ Here's a rundown of what's available to you:
 ```
 
 **size**
-- a - 1px (.bad)
-- b - 2px (.bbd)
+- a - 1px `.bad`
+- b - 2px `.bbd`
 
 **color**
-- d - #ddd (.bad)
+- d - #ddd `.bad`
 
 **direction**
-- _ - all (.bad)
-- r - right (.badr)
-- t - top (.badt)
-- b - bottom (.badb)
-- l - left (.badl)
+- _ - all `.bad`
+- r - right `.badr`
+- t - top `.badt`
+- b - bottom `.badb`
+- l - left `.badl`
 
 ### font-size
 
@@ -50,7 +50,7 @@ Here's a rundown of what's available to you:
 ```
 
 **size**
-- a - 8px (.sa)
+- a - 8px `.sa`
 - b - 10px
 - c - 12px
 - d - 14px
@@ -80,16 +80,16 @@ Here's a rundown of what's available to you:
 ```
 
 **direction**
-- l - left (.tal)
-- c - center (.tac)
-- r - right (.tar)
+- l - left `.tal`
+- c - center `.tac`
+- r - right `.tar`
 
 ### font-weight
 
 .fw[weight]
 
-- n - normal (.fwn)
-- b - bold (.fwb)
+- n - normal `.fwn`
+- b - bold `.fwb`
 
 ### display
 
@@ -98,14 +98,17 @@ Here's a rundown of what's available to you:
 ```
 
 **value**
-- ib - inline-block (.dib)
-- i - inline (.di)
-- b - block (.db)
+- ib - inline-block `.dib`
+- i - inline `.di`
+- b - block `.db`
 
 ### color
-- .white - white
-- .grey - #888
-- .dagrey - #666
+
+```css
+.white /* white */
+.grey /* #888 */
+.dagrey /* #666 */
+```
 
 ### margin & padding
 
@@ -114,25 +117,25 @@ Here's a rundown of what's available to you:
 ```
 
 **size**
-- a - 0em (.ma, .pa)
-- b - 0.2em (.mb, .pb)
-- c - 0.4em (.mc, .pc)
-- d - 0.6em (.md, .pd)
-- e - 0.8em (.me, .pe)
-- f - 1em (.mf, .pf)
-- k - 2em (.mk, .pk)
-- p - 3em (.mp, .pp)
-- u - 4em (.mu, .pu)
-- z - 5em (.mz, .pz)
+- a - 0em `.ma, .pa`
+- b - 0.2em `.mb, .pb`
+- c - 0.4em `.mc, .pc`
+- d - 0.6em `.md, .pd`
+- e - 0.8em `.me, .pe`
+- f - 1em `.mf, .pf`
+- k - 2em `.mk, .pk`
+- p - 3em `.mp, .pp`
+- u - 4em `.mu, .pu`
+- z - 5em `.mz, .pz`
 
 **direction**
-- _ - all (.mf, .pf)
-- l - left (.mfl, .pfl)
-- r - right (.mfr, .pfr)
-- t - top (.mft, .pft)
-- b - bottom (.mfb, .pfb)
-- x - left and right (.mfx, .pfx)
-- y - top and bottom (.mfy, .pfy)
+- _ - all `.mf, .pf`
+- l - left `.mfl, .pfl`
+- r - right `.mfr, .pfr`
+- t - top `.mft, .pft`
+- b - bottom `.mfb, .pfb`
+- x - left and right `.mfx, .pfx`
+- y - top and bottom `.mfy, .pfy`
 
 ### miscellaneous
 
@@ -153,7 +156,7 @@ $ component install jeffcarp/fungible
 
 Also available as a Rails gem (if you're using the asset pipeline): [fungible-rails](https://github.com/jeffcarp/fungible-rails)
 
-### Wish list
+## Wish list
 
 - Search through files and only include classes that are mentioned in the template. (this might be better as an add-on)
 
