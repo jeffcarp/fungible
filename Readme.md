@@ -132,7 +132,7 @@ Install with [component(1)](http://component.io):
 
 $ component install jeffcarp/fungible
 
-Also available as a Rails gem (if you're using the asset pipeline): [fungible-rails]()
+Also available as a Rails gem (if you're using the asset pipeline): [fungible-rails](https://github.com/jeffcarp/fungible-rails)
 
 ## License
 
