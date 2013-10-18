@@ -5,12 +5,6 @@
 .tal { text-align: left;   } 
 .tar { text-align: right;  } 
 
-/* Text color 
-===============================*/
-.white { color: white; }
-.grey { color: #888; }
-.dagrey { color: #666; }
-
 /* Font weight 
 ===============================*/
 .fwn { font-weight: normal; }

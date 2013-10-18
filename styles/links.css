@@ -1,0 +1,10 @@
+/* See color.css */
+a.white:hover {
+  color: #eee; 
+}
+a.grey:hover {
+  color: #999; 
+}
+a.dagrey:hover {
+  color: #777; 
+}
