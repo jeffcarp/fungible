@@ -10,6 +10,13 @@ This is what HTML might look like if you're using Fungible.
 <div class="mfb pk bad">
   <span class="se fwb"></span>
 </div>
+
+<!--
+mfb - m (margin), f (1.0em), b (bottom)
+pk - p (padding), k (2.0em)
+bad - b (border), a (1px), d (#ddd)
+fwb - fw (font-weight), b (bold)
+-->
 ```
 
 Here's a rundown of what's available to you:
