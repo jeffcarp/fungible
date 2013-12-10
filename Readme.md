@@ -24,54 +24,51 @@ Here's a rundown of what's available to you:
 ### background-color
 
 ```css
-.bg-[color]
+.bg-white
 ```
-
-**color**
-- white - white `.bg-white`
 
 ### border
 
 ```css
 .b[size][color][direction]
+
+  _
+.bad  /* a - 1px */
+.bbd  /* b - 2px */
+
+   _
+.bad  /* d - #ddd */
+
+    _
+.bad  /* all */
+.badr /* right */
+.badl /* left */
+.badt /* top */
+.badb /* bottom */
 ```
-
-**size**
-- a - 1px `.bad`
-- b - 2px `.bbd`
-
-**color**
-- d - #ddd `.bad`
-
-**direction**
-- _ - all `.bad`
-- r - right `.badr`
-- t - top `.badt`
-- b - bottom `.badb`
-- l - left `.badl`
 
 ### font-size
 
 ```css
 .s[size]
-```
 
-**size**
-- a - 8px `.sa`
-- b - 10px
-- c - 12px
-- d - 14px
-- e - 16px
-- f - 18px
-- g - 20px
-- h - 22px
-- i - 24px
-- j - 26px
-- k - 28px
-- m - 32px
-- o - 36px
-- r - 42px
-- v - 48px
+  _
+.sa   /* 8px */
+.sb   /* 10px */
+.sc   /* 12px */
+.sd   /* 14px */
+.se   /* 16px */
+.sf   /* 18px */
+.sg   /* 20px */
+.sh   /* 22px */
+.si   /* 24px */
+.sj   /* 26px */
+.sk   /* 28px */
+.sm   /* 32px */
+.so   /* 36px */
+.sr   /* 42px */
+.sv   /* 48px */
+```
 
 ### float
 
@@ -84,36 +81,39 @@ Here's a rundown of what's available to you:
 
 ```css
 .ta[direction]
-```
 
-**direction**
-- l - left `.tal`
-- c - center `.tac`
-- r - right `.tar`
+   _
+.tal /* left */
+.tac /* center */
+.tar /* right */
+```
 
 ### font-weight
 
+```css
 .fw[weight]
 
-- n - normal `.fwn`
-- b - bold `.fwb`
+   _
+.fwn  /* normal */
+.fwb  /* bold */
+```
 
 ### display
 
 ```css
 .d[value]
-```
 
-**value**
-- ib - inline-block `.dib`
-- i - inline `.di`
-- b - block `.db`
+  _
+.di   /* inline */
+.dib  /* inline-block */
+.db   /* block */
+```
 
 ### color
 
 ```css
-.white /* white */
-.grey /* #888 */
+.white  /* white */
+.grey   /* #888 */
 .dagrey /* #666 */
 ```
 
@@ -121,36 +121,39 @@ Here's a rundown of what's available to you:
 
 ```css
 .[p|m][size][direction]
+
+ _
+.pbb  /* padding *.
+.mbb  /* margin */
+
+  _
+.pax  /* 0em */
+.pby  /* 0.2em */
+.pcy  /* 0.4em */
+.pdy  /* 0.6em */
+.pey  /* 0.8em */
+.mfy  /* 1em */
+.mky  /* 2em */
+.mpy  /* 3em */
+.muy  /* 4em */
+.mzy  /* 5em */
+
+.mf   /* all directions */
+.mfl  /* left */
+.mfr  /* right */
+.mft  /* top */
+.mfb  /* bottom */
+.mfy  /* top and bottom */
+.mfx  /* left and right */
 ```
-
-**size**
-- a - 0em `.ma, .pa`
-- b - 0.2em `.mb, .pb`
-- c - 0.4em `.mc, .pc`
-- d - 0.6em `.md, .pd`
-- e - 0.8em `.me, .pe`
-- f - 1em `.mf, .pf`
-- k - 2em `.mk, .pk`
-- p - 3em `.mp, .pp`
-- u - 4em `.mu, .pu`
-- z - 5em `.mz, .pz`
-
-**direction**
-- _ - all `.mf, .pf`
-- l - left `.mfl, .pfl`
-- r - right `.mfr, .pfr`
-- t - top `.mft, .pft`
-- b - bottom `.mfb, .pfb`
-- x - left and right `.mfx, .pfx`
-- y - top and bottom `.mfy, .pfy`
 
 ### miscellaneous
 
 ```css
-.hidden /* display: none; */
-.full /* width: 100%; */
-.uppercase /* text-transform: uppercase; */
-.italic /* font-style: italic; */
+.hidden     /* display: none; */
+.full       /* width: 100%; */
+.uppercase  /* text-transform: uppercase; */
+.italic     /* font-style: italic; */
 ```
 
 ## Installation
