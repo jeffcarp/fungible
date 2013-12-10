@@ -123,7 +123,7 @@ Here's a rundown of what's available to you:
 .[p|m][size][direction]
 
  _
-.pbb  /* padding *.
+.pbb  /* padding */
 .mbb  /* margin */
 
   _
